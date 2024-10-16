@@ -1,0 +1,3063 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' inline='true' name='federated.1kw778k1qef4ps12k99mi08ftzng' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HollywoodsMostProfitableStories' name='excel-direct.0o4jlq70hafm7018rjyf70iifwv3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Projects new/HollywoodsMostProfitableStories.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0o4jlq70hafm7018rjyf70iifwv3' name='HollywoodsMostProfitableStories' table='[HollywoodsMostProfitableStories$]' type='table'>
+          <columns gridOrigin='A1:H75:no:A1:H75:0' header='yes' outcome='6'>
+            <column datatype='string' name='Film' ordinal='0' />
+            <column datatype='string' name='Genre' ordinal='1' />
+            <column datatype='string' name='Lead Studio' ordinal='2' />
+            <column datatype='integer' name='Audience  score %' ordinal='3' />
+            <column datatype='real' name='Profitability' ordinal='4' />
+            <column datatype='real' name='Rotten Tomatoes %' ordinal='5' />
+            <column datatype='real' name='Worldwide Gross' ordinal='6' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0o4jlq70hafm7018rjyf70iifwv3' name='HollywoodsMostProfitableStories' table='[HollywoodsMostProfitableStories$]' type='table'>
+          <columns gridOrigin='A1:H75:no:A1:H75:0' header='yes' outcome='6'>
+            <column datatype='string' name='Film' ordinal='0' />
+            <column datatype='string' name='Genre' ordinal='1' />
+            <column datatype='string' name='Lead Studio' ordinal='2' />
+            <column datatype='integer' name='Audience  score %' ordinal='3' />
+            <column datatype='real' name='Profitability' ordinal='4' />
+            <column datatype='real' name='Rotten Tomatoes %' ordinal='5' />
+            <column datatype='real' name='Worldwide Gross' ordinal='6' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>5</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H75:no:A1:H75:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Film</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Film]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Film</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lead Studio</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Lead Studio]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Lead Studio</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Audience  score %</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Audience  score %]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Audience  score %</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profitability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profitability]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Profitability</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rotten Tomatoes %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rotten Tomatoes %]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Rotten Tomatoes %</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Worldwide Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Worldwide Gross]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Worldwide Gross</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[HollywoodsMostProfitableStories]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGH_S2' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Heading' datatype='string' name='[Calculation_286260053745184768]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;HOLLYWOOD&apos;S MOST PROFITABLE STORIES&quot;' />
+      </column>
+      <column caption='Total Stories' datatype='string' name='[Calculation_286260053746434049]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Total Stories&quot;' />
+      </column>
+      <column caption='Total Audience Score' datatype='string' name='[Calculation_286260053756854275]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Total Audience Score&quot;' />
+      </column>
+      <column caption='Total Gross' datatype='string' name='[Calculation_286260053758259204]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Total Gross&quot;' />
+      </column>
+      <column caption='Total Profitability' datatype='string' name='[Calculation_286260053759107077]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Total Profit&quot;' />
+      </column>
+      <column caption='Average Profit' datatype='string' name='[Calculation_286260053761179654]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Average Profit&quot;' />
+      </column>
+      <column caption='Avg Gross' datatype='string' name='[Calculation_286260053761875975]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Avg Gross&quot;' />
+      </column>
+      <column datatype='string' name='[Film]' role='dimension' type='nominal' />
+      <column datatype='real' datatype-customized='true' name='[Rotten Tomatoes %]' role='dimension' type='ordinal' />
+      <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='HollywoodsMostProfitableStories' datatype='table' name='[__tableau_internal_object_id__].[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]' role='measure' type='quantitative' />
+      <column-instance column='[Film]' derivation='None' name='[none:Film:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Rotten Tomatoes %]' derivation='None' name='[none:Rotten Tomatoes %:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/user/AppData/Local/Temp/TableauTemp/#TableauTemp_1hsvcmc12am0vs1cbwkbq1shsmtk.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/11/2024 12:06:47 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Film</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Film]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Film</remote-alias>
+              <ordinal>0</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>74</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genre</remote-alias>
+              <ordinal>1</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lead Studio</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Lead Studio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lead Studio</remote-alias>
+              <ordinal>2</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Audience  score %</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Audience  score %]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Audience  score %</remote-alias>
+              <ordinal>3</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profitability</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profitability]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profitability</remote-alias>
+              <ordinal>4</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rotten Tomatoes %</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rotten Tomatoes %]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rotten Tomatoes %</remote-alias>
+              <ordinal>5</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Worldwide Gross</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Worldwide Gross]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Worldwide Gross</remote-alias>
+              <ordinal>6</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>7</ordinal>
+              <family>HollywoodsMostProfitableStories</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Rotten Tomatoes %:ok]' palette='green_10_0' type='palette'>
+            <map to='#24693d'>
+              <bucket>96.0</bucket>
+            </map>
+            <map to='#27773d'>
+              <bucket>93.0</bucket>
+            </map>
+            <map to='#328445'>
+              <bucket>91.0</bucket>
+            </map>
+            <map to='#44924e'>
+              <bucket>89.0</bucket>
+            </map>
+            <map to='#559f52'>
+              <bucket>87.0</bucket>
+            </map>
+            <map to='#64ac5a'>
+              <bucket>83.0</bucket>
+            </map>
+            <map to='#73ba67'>
+              <bucket>79.0</bucket>
+            </map>
+            <map to='#83c976'>
+              <bucket>54.0</bucket>
+            </map>
+            <map to='#97d586'>
+              <bucket>49.0</bucket>
+            </map>
+            <map to='#b3e0a6'>
+              <bucket>21.0</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Film:nk]' palette='green_10_0' type='palette'>
+            <map to='#24693d'>
+              <bucket>&quot;WALL-E&quot;</bucket>
+            </map>
+            <map to='#27773d'>
+              <bucket>&quot;Twilight&quot;</bucket>
+            </map>
+            <map to='#328445'>
+              <bucket>&quot;Tangled&quot;</bucket>
+            </map>
+            <map to='#44924e'>
+              <bucket>&quot;P.S. I Love You&quot;</bucket>
+            </map>
+            <map to='#559f52'>
+              <bucket>&quot;My Week with Marilyn&quot;</bucket>
+            </map>
+            <map to='#64ac5a'>
+              <bucket>&quot;Midnight in Paris&quot;</bucket>
+            </map>
+            <map to='#73ba67'>
+              <bucket>&quot;Knocked Up&quot;</bucket>
+            </map>
+            <map to='#83c976'>
+              <bucket>&quot;Across the Universe&quot;</bucket>
+            </map>
+            <map to='#97d586'>
+              <bucket>&quot;A Dangerous Method&quot;</bucket>
+            </map>
+            <map to='#b3e0a6'>
+              <bucket>&quot;(500) Days of Summer&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ghana&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='HollywoodsMostProfitableStories' id='HollywoodsMostProfitableStories_4B12EAAC2B9C425DB395546952804DE7'>
+            <properties context=''>
+              <relation connection='excel-direct.0o4jlq70hafm7018rjyf70iifwv3' name='HollywoodsMostProfitableStories' table='[HollywoodsMostProfitableStories$]' type='table'>
+                <columns gridOrigin='A1:H75:no:A1:H75:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Film' ordinal='0' />
+                  <column datatype='string' name='Genre' ordinal='1' />
+                  <column datatype='string' name='Lead Studio' ordinal='2' />
+                  <column datatype='integer' name='Audience  score %' ordinal='3' />
+                  <column datatype='real' name='Profitability' ordinal='4' />
+                  <column datatype='real' name='Rotten Tomatoes %' ordinal='5' />
+                  <column datatype='real' name='Worldwide Gross' ordinal='6' />
+                  <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Audience score by Lead studio'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='integer' name='[Audience  score %]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Lead Studio]' role='dimension' type='nominal' />
+            <column-instance column='[Lead Studio]' derivation='None' name='[none:Lead Studio:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Audience  score %]' derivation='Sum' name='[sum:Audience  score %:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Lead Studio:nk]' />
+              <groupfilter function='member' level='[none:Lead Studio:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]' />
+              <color column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{94D8573D-7B96-41E7-9C46-7B9E1A01C2B0}' />
+    </worksheet>
+    <worksheet name='Average Gross'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column caption='Avg Gross' datatype='string' name='[Calculation_286260053761875975]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Avg Gross&quot;' />
+            </column>
+            <column datatype='real' name='[Worldwide Gross]' role='measure' type='quantitative' />
+            <column-instance column='[Worldwide Gross]' derivation='Avg' name='[avg:Worldwide Gross:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_286260053761875975]' derivation='None' name='[none:Calculation_286260053761875975:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='304' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053761875975:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[avg:Worldwide Gross:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5F3BFE96-17A7-4FF5-B520-C536A7783062}' />
+    </worksheet>
+    <worksheet name='Average Profit '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column caption='Average Profit' datatype='string' name='[Calculation_286260053761179654]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Average Profit&quot;' />
+            </column>
+            <column datatype='real' name='[Profitability]' role='measure' type='quantitative' />
+            <column-instance column='[Profitability]' derivation='Avg' name='[avg:Profitability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_286260053761179654]' derivation='None' name='[none:Calculation_286260053761179654:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='304' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053761179654:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[avg:Profitability:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5D997C52-E076-4A96-ACE8-07289FAD8AFD}' />
+    </worksheet>
+    <worksheet name='Avg Audience Score '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='integer' name='[Audience  score %]' role='measure' type='quantitative' />
+            <column caption='Total Audience Score' datatype='string' name='[Calculation_286260053756854275]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Total Audience Score&quot;' />
+            </column>
+            <column-instance column='[Audience  score %]' derivation='Avg' name='[avg:Audience  score %:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_286260053756854275]' derivation='None' name='[none:Calculation_286260053756854275:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='304' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1kw778k1qef4ps12k99mi08ftzng].[avg:Audience  score %:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[avg:Audience  score %:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</run>
+                <run>&gt;&#10;</run>
+                <run><![CDATA[<[federated.1kw778k1qef4ps12k99mi08ftzng].[avg:Audience  score %:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7F1259AC-8CC3-42A9-950A-EC26348BF22F}' />
+    </worksheet>
+    <worksheet name='Heading'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column caption='Heading' datatype='string' name='[Calculation_286260053745184768]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;HOLLYWOOD&apos;S MOST PROFITABLE STORIES&quot;' />
+            </column>
+            <column-instance column='[Calculation_286260053745184768]' derivation='None' name='[none:Calculation_286260053745184768:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='282' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053745184768:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#8cd17d' fontname='Tableau Bold' fontsize='26'>&lt;</run>
+                <run bold='true' fontcolor='#8cd17d' fontname='Tableau Bold' fontsize='26'>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053745184768:nk]</run>
+                <run bold='true' fontcolor='#8cd17d' fontname='Tableau Bold' fontsize='26'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EE13CE8C-EC9E-47AC-B547-113E67DA1AD2}' />
+    </worksheet>
+    <worksheet name='Profitability by top 10 Stories'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='integer' name='[Audience  score %]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Film]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Profitability]' role='measure' type='quantitative' />
+            <column-instance column='[Film]' derivation='None' name='[none:Film:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='Sum' name='[sum:Profitability:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Audience  score %])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Film:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Profitability:qk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]' />
+              <color column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4AC7755D-3BBB-463B-8A6C-133FD30FE994}' />
+    </worksheet>
+    <worksheet name='Stories  by rotten tomatoes percentage'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='integer' name='[Audience  score %]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Film]' role='dimension' type='nominal' />
+            <column datatype='real' datatype-customized='true' name='[Rotten Tomatoes %]' role='dimension' type='ordinal' />
+            <column-instance column='[Film]' derivation='None' name='[none:Film:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rotten Tomatoes %]' derivation='None' name='[none:Rotten Tomatoes %:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Rotten Tomatoes %]' derivation='Sum' name='[sum:Rotten Tomatoes %:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Audience  score %])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Film:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='display' class='0' field='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Rotten Tomatoes %:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok] / [federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk])</rows>
+        <cols>[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Rotten Tomatoes %:qk]</cols>
+      </table>
+      <simple-id uuid='{4371EEF2-197C-434B-8BC2-DE6DB2EC3166}' />
+    </worksheet>
+    <worksheet name='Stories by trend'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='string' name='[Film]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Film]' derivation='CountD' name='[ctd:Film:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[ctd:Film:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kw778k1qef4ps12k99mi08ftzng].[ctd:Film:qk]</rows>
+        <cols>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{C7F124B5-832A-4323-A806-47084B4E271F}' />
+    </worksheet>
+    <worksheet name='Total Audience Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='integer' name='[Audience  score %]' role='measure' type='quantitative' />
+            <column caption='Total Audience Score' datatype='string' name='[Calculation_286260053756854275]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Total Audience Score&quot;' />
+            </column>
+            <column-instance column='[Calculation_286260053756854275]' derivation='None' name='[none:Calculation_286260053756854275:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Audience  score %]' derivation='Sum' name='[sum:Audience  score %:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='304' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F2B488B5-687A-4953-B92A-6FCAA723D736}' />
+    </worksheet>
+    <worksheet name='Total Films'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column caption='Total Stories' datatype='string' name='[Calculation_286260053746434049]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Total Stories&quot;' />
+            </column>
+            <column datatype='string' name='[Film]' role='dimension' type='nominal' />
+            <column-instance column='[Film]' derivation='CountD' name='[ctd:Film:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_286260053746434049]' derivation='None' name='[none:Calculation_286260053746434049:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='101' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[ctd:Film:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.1kw778k1qef4ps12k99mi08ftzng].[ctd:Film:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D612EA7C-7229-4F19-AB79-60430F7133B4}' />
+    </worksheet>
+    <worksheet name='Total Gross'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column caption='Total Gross' datatype='string' name='[Calculation_286260053758259204]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Total Gross&quot;' />
+            </column>
+            <column datatype='real' name='[Worldwide Gross]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_286260053758259204]' derivation='None' name='[none:Calculation_286260053758259204:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Worldwide Gross]' derivation='Sum' name='[sum:Worldwide Gross:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='304' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053758259204:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8BC1BAF6-652A-4A4C-9B26-38641F9F3727}' />
+    </worksheet>
+    <worksheet name='Total Profit'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column caption='Total Profitability' datatype='string' name='[Calculation_286260053759107077]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Total Profit&quot;' />
+            </column>
+            <column datatype='real' name='[Profitability]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_286260053759107077]' derivation='None' name='[none:Calculation_286260053759107077:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='Sum' name='[sum:Profitability:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='304' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053759107077:nk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Profitability:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CC090F4E-DCC3-4C48-968B-CC075DF04D0D}' />
+    </worksheet>
+    <worksheet name='Worldwide Gross by top 10 Stories'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='string' name='[Film]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Worldwide Gross]' role='measure' type='quantitative' />
+            <column-instance column='[Film]' derivation='None' name='[none:Film:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Worldwide Gross]' derivation='Sum' name='[sum:Worldwide Gross:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Worldwide Gross])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Film:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='101' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk] + [federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk])</rows>
+        <cols>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</cols>
+      </table>
+      <simple-id uuid='{41CC93B7-F77E-4AEF-97E3-BDE5FF67DA95}' />
+    </worksheet>
+    <worksheet name='Worldwide gross by genre per year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HollywoodsMostProfitableStories (HollywoodsMostProfitableStories)' name='federated.1kw778k1qef4ps12k99mi08ftzng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kw778k1qef4ps12k99mi08ftzng'>
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Worldwide Gross]' role='measure' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Worldwide Gross]' derivation='Sum' name='[sum:Worldwide Gross:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#898989' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#898989' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]' />
+              <text column='[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Worldwide Gross:qk]</rows>
+        <cols>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{171BA3A7-AC7A-41FF-8423-96B2B20ED38F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Hollywood'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='7222' id='3' name='Heading' show-title='false' w='99875' x='0' y='333' />
+        <zone h='6222' id='4' name='Total Films' show-title='false' w='8188' x='63' y='778' />
+        <zone h='5667' id='5' name='Total Audience Score' show-title='false' w='9000' x='18313' y='889' />
+        <zone h='6889' id='6' name='Average Profit ' show-title='false' w='8375' x='72125' y='444' />
+        <zone h='6222' id='7' name='Total Profit' show-title='false' w='7938' x='80250' y='1000' />
+        <zone h='6333' id='8' name='Avg Audience Score ' show-title='false' w='11313' x='7313' y='778' />
+        <zone h='5778' id='9' name='Total Gross' show-title='false' w='6313' x='87563' y='1000' />
+        <zone h='5556' id='10' name='Average Gross' show-title='false' w='6563' x='93188' y='1333' />
+        <zone h='32000' id='11' is-centered='0' is-scaled='1' param='C:/Users/user/Downloads/Hollywood-removebg-preview.png' type-v2='bitmap' w='33313' x='33438' y='39889' />
+        <zone h='50667' id='12' name='Audience score by Lead studio' w='33313' x='67000' y='47222' />
+        <zone h='32000' id='13' name='Worldwide Gross by top 10 Stories' w='33438' x='33375' y='66000' />
+        <zone h='47333' id='14' name='Stories  by rotten tomatoes percentage' w='32813' x='250' y='50778' />
+        <zone h='42667' id='15' name='Stories by trend' w='33000' x='63' y='7778' />
+        <zone h='38667' id='16' name='Worldwide gross by genre per year' w='32938' x='66938' y='7889' />
+        <zone h='32000' id='17' name='Profitability by top 10 Stories' w='32938' x='33438' y='7667' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2550' minheight='2550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='18' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+                <zone fixed-size='65' h='7222' id='3' is-fixed='true' name='Heading' show-title='false' w='99875' x='0' y='333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='62' h='6889' id='6' is-fixed='true' name='Average Profit ' show-title='false' w='8375' x='72125' y='444'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='56' h='6222' id='4' is-fixed='true' name='Total Films' show-title='false' w='8188' x='63' y='778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='57' h='6333' id='8' is-fixed='true' name='Avg Audience Score ' show-title='false' w='11313' x='7313' y='778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='51' h='5667' id='5' is-fixed='true' name='Total Audience Score' show-title='false' w='9000' x='18313' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='56' h='6222' id='7' is-fixed='true' name='Total Profit' show-title='false' w='7938' x='80250' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='52' h='5778' id='9' is-fixed='true' name='Total Gross' show-title='false' w='6313' x='87563' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5556' id='10' is-fixed='true' name='Average Gross' show-title='false' w='6563' x='93188' y='1333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32000' id='17' is-fixed='true' name='Profitability by top 10 Stories' w='32938' x='33438' y='7667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42667' id='15' is-fixed='true' name='Stories by trend' w='33000' x='63' y='7778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38667' id='16' is-fixed='true' name='Worldwide gross by genre per year' w='32938' x='66938' y='7889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32000' id='11' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/user/Downloads/Hollywood-removebg-preview.png' type-v2='bitmap' w='33313' x='33438' y='39889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50667' id='12' is-fixed='true' name='Audience score by Lead studio' w='33313' x='67000' y='47222'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47333' id='14' is-fixed='true' name='Stories  by rotten tomatoes percentage' w='32813' x='250' y='50778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32000' id='13' is-fixed='true' name='Worldwide Gross by top 10 Stories' w='33438' x='33375' y='66000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0537A447-DB77-40F5-816D-0E5481D9480D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Hollywood'>
+      <viewpoints>
+        <viewpoint name='Audience score by Lead studio'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Gross'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Profit '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Avg Audience Score '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Heading'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Profitability by top 10 Stories'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Stories  by rotten tomatoes percentage'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Stories by trend'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[ctd:Film:qk]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[ctd:Film:qk]</field>
+                    <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>12</value>
+                  <value>#2009-01-01 00:00:00#</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+        <viewpoint name='Total Audience Score'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Films'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Gross'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Profit'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Worldwide Gross by top 10 Stories'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Worldwide gross by genre per year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{566C504A-B7A6-4FEB-B097-CDC0FF5E6C0D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Audience score by Lead studio'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kw778k1qef4ps12k99mi08ftzng].[sum:Audience  score %:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{061879C1-A3B0-4E31-AEF7-21489754760C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Average Gross'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053758259204:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053761875975:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC127EC8-661F-45FA-9636-583C27C304CF}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Average Profit '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053758259204:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053759107077:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053761179654:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AE684758-0621-4BDE-BE24-2B6A873BA1C0}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Avg Audience Score '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B51F61D9-242B-49B4-8BC3-2666CB3EAF95}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Heading'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053745184768:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{675BFC5D-F1BB-4800-B9DE-E421264129A1}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Profitability by top 10 Stories'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C29AED86-058E-4B88-8FCC-FAB5284591D8}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Stories  by rotten tomatoes percentage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1DD4DBFE-5AB9-4572-A97B-37DB0FC29710}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Stories by trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D7548AAB-9C6E-4672-9648-59A1AE9931FB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Audience Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{373F0F9B-3CBA-4682-B497-D9AED863B666}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Films'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7E215192-B08C-4CB3-85DE-65D343F04D23}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Gross'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053758259204:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4ED1BCD9-FFFE-43A9-A05D-0C23CB906D72}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Profit'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053756854275:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053758259204:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053759107077:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Lead Studio:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C1E57BB4-AF04-4168-8F61-F9E5802627F7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Worldwide Gross by top 10 Stories'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ADF3B1AD-EBC2-431E-972D-CE1E9D5E4CA9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Worldwide gross by genre per year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Calculation_286260053746434049:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Film:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Genre:nk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[none:Rotten Tomatoes %:ok]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[tyr:Year:qk]</field>
+            <field>[federated.1kw778k1qef4ps12k99mi08ftzng].[yr:Rotten Tomatoes %:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{63D104E8-78F5-4DF0-B01A-BA3EDFD8755E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Hollywood' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
